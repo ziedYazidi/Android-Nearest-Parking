@@ -1,9 +1,5 @@
 # Description
-This is an android app that searches the closest parking using Google Maps API, parkings are added to the database using Longitude and Latitude coordinates.
-
-# Prerequisite
-* Install MongoDb
-* Install node
+This is an android app that searches the closest parking using Google Maps API. Parkings are added to the database using the longitude and lyatitude coordinates.
 
 # Steps
 
@@ -11,18 +7,28 @@ This is an android app that searches the closest parking using Google Maps API, 
 Clone this repository. In a terminal, run:
 
 ```
-$ git clone https://github.com/ziedYazidi/microservices-rent-car-example.git
+$ git clone https://github.com/ziedYazidi/Parking-Application.git
 ```
 
 
-**Run mongod (the primary daemon process for the MongoDB system)**
+**Run the backend**
 ```
-$ mongod
+Go To /ParkingApp-master
+Open the project with intelliJ
+Run the project
 ```
 
-**Start the node server**
+
+> **Note:** If there is a problem with the port when running the application: Go To Run -> Edit Configurations and set VM options to -Dserver.port=8090
+
+
+**Run the frontend**
 
 ```
-Go To the project directory
-$ node server.js
+Go To /TestGoogleMaps
+Open the project with Android Studio
 ```
+> **Note:** Before running the appication, we need to connect the phone and the Computer to the same wifi host (It can be a phone hotspot). Then we need to configure the web service IP addresses to the one provided by the host.
+
+Now we can run the application.
+
