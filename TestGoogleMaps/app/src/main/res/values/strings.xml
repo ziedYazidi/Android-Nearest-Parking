@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TestGoogleMaps</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="parkings">
+        <item>Parking1</item>
+        <item>Parking2</item>
+        <item>Parking3</item>
+        <item>Parking4</item>
+    </string-array>
+    <string-array name="distances">
+        <item>Distance1</item>
+        <item>Distance2</item>
+        <item>Distance3</item>
+        <item>Distance4</item>
+    </string-array>
+    <string name="Inscription"><u>Inscription</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

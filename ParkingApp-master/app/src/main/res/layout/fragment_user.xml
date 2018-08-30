@@ -1,0 +1,120 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_default"
+        android:orientation="vertical"
+
+        android:id="@+id/itemList">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_profile"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="1dp"
+            android:minHeight="200dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/username_title"
+                android:paddingTop="16dp"
+                android:paddingBottom="4dp"
+                android:textSize="@dimen/caption"
+                android:textColor="@color/color_hint"
+                android:text="Username" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_id"
+                android:textColor="@color/red_default"
+                android:textSize="@dimen/abc_text_size_headline_material"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/credit_number_title"
+                android:paddingTop="16dp"
+                android:paddingBottom="4dp"
+                android:textSize="@dimen/caption"
+                android:textColor="@color/color_hint"
+                android:text="Credit Number"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/credit_number"
+                android:paddingTop="4dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/black_default"
+                android:textSize="@dimen/subhead"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/plate_number_title"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:textSize="@dimen/caption"
+                android:textColor="@color/color_hint"
+                android:text="Plate Number"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/plate_number"
+                android:paddingTop="4dp"
+                android:paddingBottom="8dp"
+                android:textSize="@dimen/subhead"
+                android:textColor="@color/black_default"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/balance_title"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:textSize="@dimen/caption"
+                android:textColor="@color/color_hint"
+                android:text="Balance"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/balance"
+                android:paddingTop="4dp"
+                android:paddingBottom="8dp"
+                android:textSize="@dimen/subhead"
+                android:textColor="@color/black_default"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/ic_edit"
+        fab:fab_colorNormal="@color/red_default"
+        fab:fab_colorPressed="@color/red_default"
+        android:visibility="invisible" />
+</FrameLayout>

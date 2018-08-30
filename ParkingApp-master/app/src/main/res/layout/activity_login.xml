@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+
+    <include layout="@layout/toolbar" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="40dp"
+            android:paddingBottom="20sp">
+
+            <EditText
+                android:id="@+id/enterUserName"
+                android:hint="User Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/enterPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+
+            <Button
+                android:id="@+id/buttonLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/buttonRegistration"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:layout_marginBottom="60dp" />
+
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

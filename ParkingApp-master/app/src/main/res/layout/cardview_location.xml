@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_default"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/itemList">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:textColor="@color/red_default"
+        android:textSize="@dimen/title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cost"
+        android:textSize="@dimen/body"
+        android:textColor="@color/black_default"
+        />
+
+    <!--<com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/ic_edit"
+        fab:fab_colorNormal="@color/red_default"
+        fab:fab_colorPressed="@color/red_default"/>-->
+
+</LinearLayout>

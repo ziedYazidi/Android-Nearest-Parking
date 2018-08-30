@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.opendata.myparking.parkingapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- Splash screen -->
+        <activity
+            android:name=".activity.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.CreateLocationActivity"
+            android:label="Create Location Activity" >
+        </activity>
+        <activity
+            android:name=".activity.EditUserActivity"
+            android:label="Edit User Activity" >
+        </activity>
+        <activity
+            android:name=".activity.CreateVehicleActivity"
+            android:label="Create Vehicle Activity" >
+        </activity>
+        <activity
+            android:name=".activity.EditLocationActivity"
+            android:label="Edit Location Activity" >
+        </activity>
+        <activity
+            android:name=".activity.EditVehicleActivity"
+            android:label="Edit Vehicle Activity" >
+        </activity>
+        <activity
+            android:name=".activity.CreateParkingActivity"
+            android:label="Create Parking Activity" >
+        </activity>
+        <activity
+            android:name=".activity.EditParkingActivity"
+            android:label="Edit Parking Activity" >
+        </activity>
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.RegisterActivity"></activity>
+    </application>
+
+</manifest>

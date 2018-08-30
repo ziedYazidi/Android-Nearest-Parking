@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yuk-mutabaah="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_clear"
+        android:icon="@drawable/clear"
+        android:title="Clear"
+        yuk-mutabaah:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_done"
+        android:icon="@drawable/done"
+        android:title="Done"
+        yuk-mutabaah:showAsAction="ifRoom"/>
+</menu>

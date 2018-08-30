@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red_default">#DE433E</color>
+    <color name="bg_default">#F5EEE5</color>
+    <color name="color_hint">#9C9C9C</color>
+    <color name="black_default">#000000</color>
+    <color name="white_default">#fff</color>
+    <color name="green_default">#4F8080</color>
+    <color name="blue_light">#2196F3</color>
+    <color name="light_grey">#e0e0e0</color>
+    <color name="side_menu_bg">#9C9C9C</color>
+    <color name="list_divider">#666666</color>
+
+    <color name="red_progress">#FF5722</color>
+    <color name="yellow_progress">#ffeb3b</color>
+    <color name="green_progress">#8BC34A</color>
+
+    <color name="colorPrimary">#00695C</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#26A69A</color>
+</resources>

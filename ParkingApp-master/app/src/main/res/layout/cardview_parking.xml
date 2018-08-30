@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_default"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/itemList">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plate_number"
+        android:textColor="@color/red_default"
+        android:textSize="@dimen/headline"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_in"
+        android:text="Time in: 07/04/2016 17:06"
+        android:textColor="@color/color_hint"
+        android:textSize="@dimen/body"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_out"
+        android:text="Time out: 07/04/2016 17:06"
+        android:textColor="@color/color_hint"
+        android:textSize="@dimen/body"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/charge"
+        android:text="@string/lbl_charge"
+        android:textColor="@color/color_hint"
+        android:textSize="@dimen/body"
+        android:hint="@string/hint_cost"/>
+    <!-- comment for the moment as we cant find the vehicle from the platenumber -->
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brand"
+        android:textSize="@dimen/body"
+        android:textColor="@color/black_default"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/model"
+        android:textSize="@dimen/body"
+        android:textColor="@color/black_default"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/colour"
+        android:textSize="@dimen/body"
+        android:textColor="@color/black_default"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/year"
+        android:textSize="@dimen/body"
+        android:textColor="@color/black_default"
+        />-->
+
+</LinearLayout>
