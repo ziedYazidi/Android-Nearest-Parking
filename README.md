@@ -28,7 +28,7 @@ Run the project
 Go To /TestGoogleMaps
 Open the project with Android Studio
 ```
-> **Note:** Before running the appication, we need to connect the phone and the Computer to the same wifi host (It can be a phone hotspot). Then we need to configure the web service IP addresses to the one provided by the host.
+> **Note:** Before running the application, we need to connect the phone and the Computer to the same wifi host (It can be a phone hotspot). Then we need to configure the web service IP addresses to the one provided by the host.
 
 Now we can run the application.
 
